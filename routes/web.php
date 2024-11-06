@@ -21,3 +21,4 @@ Route::get('/', function () {
 Route::get('/profile', [ProfileController::class, 'profile']); 
 Route::get('/user/profile', [UserController::class, 'profile']); 
 Route::get('/user/login', [UserController::class, 'login']); 
+Route::get('/dashboard', [UserController::class, 'showDashboard']);

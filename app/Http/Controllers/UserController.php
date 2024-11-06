@@ -15,4 +15,9 @@ class UserController extends Controller
     {
         return view('login');
     }
+
+    public function showDashboard()
+    {
+        return view('dashboard'); // Ganti 'dashboard' dengan nama file view yang sesuai
+    }
 }
